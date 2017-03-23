@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1866BC531E836C4D00D0DEC2 /* HorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866BC4D1E836C4D00D0DEC2 /* HorizontalScrollView.m */; };
+		1866BC541E836C4D00D0DEC2 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866BC4F1E836C4D00D0DEC2 /* ItemCell.m */; };
+		1866BC551E836C4D00D0DEC2 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866BC501E836C4D00D0DEC2 /* ItemCell.xib */; };
+		1866BC561E836C4D00D0DEC2 /* UIImageView+CornnerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866BC521E836C4D00D0DEC2 /* UIImageView+CornnerRadius.m */; };
 		18FC5D6A1E82731A0031173B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5D691E82731A0031173B /* main.m */; };
 		18FC5D6D1E82731A0031173B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5D6C1E82731A0031173B /* AppDelegate.m */; };
 		18FC5D701E82731A0031173B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5D6F1E82731A0031173B /* ViewController.m */; };
 		18FC5D731E82731A0031173B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC5D711E82731A0031173B /* Main.storyboard */; };
 		18FC5D751E82731A0031173B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC5D741E82731A0031173B /* Assets.xcassets */; };
 		18FC5D781E82731A0031173B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC5D761E82731A0031173B /* LaunchScreen.storyboard */; };
+		18FC5D851E827D460031173B /* placeholder_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FC5D841E827D460031173B /* placeholder_image@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1866BC4C1E836C4D00D0DEC2 /* HorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollView.h; sourceTree = "<group>"; };
+		1866BC4D1E836C4D00D0DEC2 /* HorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollView.m; sourceTree = "<group>"; };
+		1866BC4E1E836C4D00D0DEC2 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		1866BC4F1E836C4D00D0DEC2 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		1866BC501E836C4D00D0DEC2 /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		1866BC511E836C4D00D0DEC2 /* UIImageView+CornnerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornnerRadius.h"; sourceTree = "<group>"; };
+		1866BC521E836C4D00D0DEC2 /* UIImageView+CornnerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornnerRadius.m"; sourceTree = "<group>"; };
 		18FC5D651E82731A0031173B /* HorizontalScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC5D691E82731A0031173B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18FC5D6B1E82731A0031173B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +38,7 @@
 		18FC5D741E82731A0031173B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FC5D771E82731A0031173B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FC5D791E82731A0031173B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FC5D841E827D460031173B /* placeholder_image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder_image@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +52,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1866BC4B1E836C4D00D0DEC2 /* HorizontalScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1866BC4C1E836C4D00D0DEC2 /* HorizontalScrollView.h */,
+				1866BC4D1E836C4D00D0DEC2 /* HorizontalScrollView.m */,
+				1866BC4E1E836C4D00D0DEC2 /* ItemCell.h */,
+				1866BC4F1E836C4D00D0DEC2 /* ItemCell.m */,
+				1866BC501E836C4D00D0DEC2 /* ItemCell.xib */,
+				1866BC511E836C4D00D0DEC2 /* UIImageView+CornnerRadius.h */,
+				1866BC521E836C4D00D0DEC2 /* UIImageView+CornnerRadius.m */,
+			);
+			path = HorizontalScrollView;
+			sourceTree = "<group>";
+		};
 		18FC5D5C1E82731A0031173B = {
 			isa = PBXGroup;
 			children = (
+				18FC5D841E827D460031173B /* placeholder_image@2x.jpg */,
 				18FC5D671E82731A0031173B /* HorizontalScroll */,
 				18FC5D661E82731A0031173B /* Products */,
 			);
@@ -58,6 +86,7 @@
 		18FC5D671E82731A0031173B /* HorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
+				1866BC4B1E836C4D00D0DEC2 /* HorizontalScrollView */,
 				18FC5D6B1E82731A0031173B /* AppDelegate.h */,
 				18FC5D6C1E82731A0031173B /* AppDelegate.m */,
 				18FC5D6E1E82731A0031173B /* ViewController.h */,
@@ -137,7 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FC5D851E827D460031173B /* placeholder_image@2x.jpg in Resources */,
 				18FC5D781E82731A0031173B /* LaunchScreen.storyboard in Resources */,
+				1866BC551E836C4D00D0DEC2 /* ItemCell.xib in Resources */,
 				18FC5D751E82731A0031173B /* Assets.xcassets in Resources */,
 				18FC5D731E82731A0031173B /* Main.storyboard in Resources */,
 			);
@@ -150,8 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1866BC541E836C4D00D0DEC2 /* ItemCell.m in Sources */,
 				18FC5D701E82731A0031173B /* ViewController.m in Sources */,
+				1866BC531E836C4D00D0DEC2 /* HorizontalScrollView.m in Sources */,
 				18FC5D6D1E82731A0031173B /* AppDelegate.m in Sources */,
+				1866BC561E836C4D00D0DEC2 /* UIImageView+CornnerRadius.m in Sources */,
 				18FC5D6A1E82731A0031173B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +343,7 @@
 				18FC5D7E1E82731A0031173B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
